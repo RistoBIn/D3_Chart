@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Form Login</title>
+</head>
+
+<body OnLoad="document.main.username.focus();">
+
+
+	
+<table >
+	<tr>
+		<td colspan="2">	
+<h4>Enter your Username and Email Address to continue</h4> 
+</td>
+</tr>
+<!-- create the main form with an input text box named uid and a password text box named mypassword -->
+<form name="main" method="post" action="authcheck.php"> 
+<tr> 
+<td>username:</td> 
+<td><input name="username" type="text" size="50"></td> 
+</tr> 
+<tr> 
+<td>Email Address:</td> 
+<td><input name="emailadd" type="text" size="50"></td> 
+</tr> 
+<tr> 
+<td colspan="2" align="center"><input name="btnsubmit" type="submit" value="Submit"></td> 
+</tr>
+</table>
+</form>
+
+
+</body>
+</html> 
